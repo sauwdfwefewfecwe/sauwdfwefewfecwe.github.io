@@ -1,0 +1,86 @@
+/* 设置整体背景颜色 */
+
+/* 头部 */
+.xxy-header {
+    background-color:  #b5a7f3;
+    height: 40px;
+}
+p.header{
+    font-family: monospace;
+    font-size:30px;
+    font-weight: 1000;
+    padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+    margin: 0;
+}
+/* p.search{
+
+} */
+/* 横版导航栏 */
+ul.heng {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b5a7f3;
+}
+
+li.heng {
+    float: left;
+}
+
+li.heng a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    /* 去掉链接下面的下划线 */
+    text-decoration: none;
+}
+
+li.heng a:hover {
+    background-color: #a069e4;
+}
+/* 竖版的导航栏 */
+ul.shu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #cbbde6;
+    height: 620px;
+}
+ 
+li.shu a {
+    display: block;
+    color:black;
+    padding: 8px 16px;
+    /* 去掉链接下面的下划线 */
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+/* 鼠标移动到选项上修改背景颜色 */
+li.shu a:hover {
+    background-color: #b5a7f3;
+    color: white;
+}
+/* 定位 让两个导航栏不随页面的滚动而移动 */
+.pos_fixed
+{
+	position:fixed;
+}
+/* 底部区域 */cv
+.footer {
+    background-color: #8b73ce;
+    padding: 23px;
+    text-align: center;
+    clear:both;
+    /* clear：防止随浮动元素而变化 */
+  }
+
+#leftkuai{
+    float: left;
+}
+

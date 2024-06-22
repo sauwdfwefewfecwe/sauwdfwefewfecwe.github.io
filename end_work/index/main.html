@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<!-- 定义一个框架集 -->
+    <frameset rows="14%,76%,*" border="1">
+        <frame frameborder="0" noresize src="header.html" name="head">header</frame>
+        <frameset cols="232px,*">
+            <!-- 定义框架子集 -->
+            <!-- 将左侧导航栏所在的页面作为一个子框架 -->
+            <!-- src属性：用来连接子框架网页 -->
+            <!-- name属性：用来规定框架名称 -->
+            <frame frameborder="0" noresize src="leftcolumn.html" name="index1">左框架--选项栏</frame>
+            <frame frameborder="0" noresize name="index2">content区域</frame>
+           
+        </frameset>
+         <frame frameborder="0" noresize name="foot" src="foot.html">foot</frame>
+    </frameset>
+   
+</html>

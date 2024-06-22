@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="suggestion.css" rel="stylesheet">
+</head>
+<body>
+     <!-- suggesion里面的内容，涉及到了表单 -->
+     <p id="suggestion" target="view_frame">
+        <div  class="container">
+            <form action="/action_page.php">
+              <label for="fname">怎么称呼您，朋友！</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="country">你来自哪个国家？</label>
+              <select id="country" name="country">
+                <option value="australia">China</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+
+              <label for="subject">你希望网站有什么改进?</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." class="text" ></textarea>
+            
+            
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    </p>
+    
+</div> 
+</body>
+</html>

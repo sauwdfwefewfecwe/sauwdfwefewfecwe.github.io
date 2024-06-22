@@ -1,0 +1,27 @@
+body{
+        background-color: rgb(220, 216, 226);
+}
+.mengxiang{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(220, 216, 226); */
+    height:fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.wenbeng{
+    font-family: serif;
+    font-size: 600px;
+}
+input[type="checkbox"] :checked{
+    /* 设置复选框的背景颜色为紫色 */
+    background-color:rgb(73, 69, 197);
+    /* 将复选框的边框变为圆角； */
+    border-radius: 10%;
+  }
+li{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    /* 去掉列表项标记为空 */
+}
